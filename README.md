@@ -1,8 +1,8 @@
-# @cosmiumx/mcp-math-calculator
+# mcp-math-calculator
 
 🧮 **精确数学计算的 MCP 服务器** - 为 AI 提供 100% 准确的计算能力
 
-[![npm version](https://img.shields.io/npm/v/@cosmiumx/mcp-math-calculator)](https://www.npmjs.com/package/@cosmiumx/mcp-math-calculator)
+[![npm version](https://img.shields.io/npm/v/mcp-math-calculator)](https://www.npmjs.com/package/mcp-math-calculator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 🌟 特性
@@ -31,7 +31,7 @@
   "mcpServers": {
     "math-calculator": {
       "command": "npx",
-      "args": ["-y", "@cosmiumx/mcp-math-calculator"]
+      "args": ["-y", "mcp-math-calculator"]
     }
   }
 }
@@ -40,9 +40,9 @@
 ### 方式 2: 全局安装
 
 ```bash
-npm install -g @cosmiumx/mcp-math-calculator
+npm install -g mcp-math-calculator
 # 或
-pnpm add -g @cosmiumx/mcp-math-calculator
+pnpm add -g mcp-math-calculator
 ```
 
 然后配置：

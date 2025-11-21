@@ -15,7 +15,7 @@
   "mcpServers": {
     "math-calculator": {
       "command": "npx",
-      "args": ["-y", "@cosmiumx/mcp-math-calculator"]
+      "args": ["-y", "mcp-math-calculator"]
     }
   }
 }
@@ -79,7 +79,7 @@ npx clear-npx-cache
   "mcpServers": {
     "math": {
       "command": "npx",
-      "args": ["-y", "@cosmiumx/mcp-math-calculator"]
+      "args": ["-y", "mcp-math-calculator"]
     }
   }
 }
@@ -89,7 +89,7 @@ npx clear-npx-cache
 
 ```bash
 # 先安装
-npm install -g @cosmiumx/mcp-math-calculator
+npm install -g mcp-math-calculator
 ```
 
 ```json

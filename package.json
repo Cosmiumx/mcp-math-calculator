@@ -1,5 +1,5 @@
 {
-  "name": "@cosmiumx/mcp-math-calculator",
+  "name": "mcp-math-calculator",
   "version": "1.0.0",
   "description": "MCP server for precise mathematical calculations - 100% accurate results",
   "type": "module",
@@ -33,9 +33,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Cosmiumx/mcp-math-calculator.git"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4",

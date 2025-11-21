@@ -1,10 +1,10 @@
-# @cosmiumx/mcp-math-calculator
+# mcp-math-calculator
 
 🧮 **精确数学计算的 MCP 服务器** - 为 AI 提供 100% 准确的计算能力
 
 [English](./README.md) | 简体中文
 
-[![npm version](https://img.shields.io/npm/v/@cosmiumx/mcp-math-calculator)](https://www.npmjs.com/package/@cosmiumx/mcp-math-calculator)
+[![npm version](https://img.shields.io/npm/v/mcp-math-calculator)](https://www.npmjs.com/package/mcp-math-calculator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 🎯 为什么需要这个工具？
@@ -49,7 +49,7 @@ AI 语言模型在数学计算上存在固有缺陷：
   "mcpServers": {
     "math-calculator": {
       "command": "npx",
-      "args": ["-y", "@cosmiumx/mcp-math-calculator"]
+      "args": ["-y", "mcp-math-calculator"]
     }
   }
 }
@@ -61,13 +61,13 @@ AI 语言模型在数学计算上存在固有缺陷：
 
 ```bash
 # 全局安装
-npm install -g @cosmiumx/mcp-math-calculator
+npm install -g mcp-math-calculator
 
 # 使用 pnpm
-pnpm add -g @cosmiumx/mcp-math-calculator
+pnpm add -g mcp-math-calculator
 
 # 使用 yarn
-yarn global add @cosmiumx/mcp-math-calculator
+yarn global add mcp-math-calculator
 ```
 
 ## 🚀 使用示例
@@ -140,7 +140,7 @@ sin(pi/6) + cos(pi/3)      // 1
   "mcpServers": {
     "math-calculator": {
       "command": "npx",
-      "args": ["-y", "@cosmiumx/mcp-math-calculator"],
+      "args": ["-y", "mcp-math-calculator"],
       "env": {
         "NODE_ENV": "production"
       }
@@ -266,7 +266,7 @@ MIT License - 详见 [LICENSE](LICENSE)
 - [Model Context Protocol 官网](https://modelcontextprotocol.io/)
 - [MCP 规范文档](https://spec.modelcontextprotocol.io/)
 - [mathjs 文档](https://mathjs.org/)
-- [npm 包页面](https://www.npmjs.com/package/@cosmiumx/mcp-math-calculator)
+- [npm 包页面](https://www.npmjs.com/package/mcp-math-calculator)
 
 ## 🌟 致谢
 
